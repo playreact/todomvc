@@ -20,8 +20,8 @@ dependencies:
     specifier: ^2.0.4
     version: 2.0.4(react@18.2.0)
   lucide-react:
-    specifier: ^0.184.0
-    version: 0.184.0(react@18.2.0)
+    specifier: ^0.187.0
+    version: 0.187.0(react@18.2.0)
   lxgw-wenkai-screen-webfont:
     specifier: ^1.7.0
     version: 1.7.0
@@ -2331,8 +2331,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.184.0(react@18.2.0):
-    resolution: {integrity: sha512-oq39zm7yrjBqmixJj6hizuJVAEzZl4IEtPOjHWQJKZ0jkVGGtCEweKWZEBCUG9ZR6i9GZeTxt/cH2ppvc//MUQ==}
+  /lucide-react@0.187.0(react@18.2.0):
+    resolution: {integrity: sha512-+k/2djo5opeq22Bb68sA0rjQbI3ToC3nNmsHmaahJ+/6EF2dbWcJ4eWzQZe/97dxndUQ6F2/VqvVXmKHACFnfw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
