@@ -1,6 +1,6 @@
 import { useAtom } from 'jotai'
 import React, { memo } from 'react'
-import { filterAtom } from './Todos.store'
+import { filterAtom } from './Todo.store'
 
 const TodoFilter: React.FC = () => {
   const [filter, setFilter] = useAtom(filterAtom)

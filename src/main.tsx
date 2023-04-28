@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Todos from './components/Todos'
+import Todo from './components/TodoMVC'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Todos />
+    <Todo />
   </React.StrictMode>,
 )

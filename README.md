@@ -1,9 +1,9 @@
-# Todos
+# Todo MVC
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/62778919-cb39-4905-ae6f-c42f070e1f97/deploy-status)](https://app.netlify.com/sites/mancuoj-todos/deploys)
-![Star](https://img.shields.io/github/stars/mancuoj/todos?style=flat)
-![Fork](https://img.shields.io/github/forks/mancuoj/todos?style=flat)
-![MIT](https://img.shields.io/github/license/mancuoj/todos?style=flat)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5049bef-484b-4777-83d2-2d3e31ec57ad/deploy-status)](https://app.netlify.com/sites/playreact-todomvc/deploys)
+![Star](https://img.shields.io/github/stars/playreact/todomvc?style=flat)
+![Fork](https://img.shields.io/github/forks/playreact/todomvc?style=flat)
+![MIT](https://img.shields.io/github/license/playreact/todomvc?style=flat)
 
 - Vite
 - React

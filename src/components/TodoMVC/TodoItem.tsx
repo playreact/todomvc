@@ -3,8 +3,8 @@ import { memo, useState } from 'react'
 import { useSortable } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
 import { useSetAtom } from 'jotai'
-import type { Todo } from './Todos.store'
-import { todosAtom } from './Todos.store'
+import type { Todo } from './Todo.store'
+import { todosAtom } from './Todo.store'
 
 const TodoItem: React.FC<{ todo: Todo }> = ({ todo }) => {
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id: todo.id })
