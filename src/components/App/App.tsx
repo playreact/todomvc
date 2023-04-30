@@ -4,7 +4,7 @@ import TodoFilter from './TodoFilter'
 import TodoList from './TodoList'
 import 'lxgw-wenkai-screen-webfont/style.css'
 
-const Todo: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div className='flex items-start justify-center p-20'>
       <div className="flex w-[55ch] flex-col gap-6 font-['LXGW_WenKai_Screen']">
@@ -21,4 +21,4 @@ const Todo: React.FC = () => {
   )
 }
 
-export default Todo
+export default App

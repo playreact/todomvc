@@ -3,7 +3,7 @@ import { useAtomValue, useSetAtom } from 'jotai'
 import type { DragEndEvent } from '@dnd-kit/core'
 import { DndContext, KeyboardSensor, MouseSensor, TouchSensor, closestCenter, useSensor, useSensors } from '@dnd-kit/core'
 import { SortableContext, arrayMove, sortableKeyboardCoordinates, verticalListSortingStrategy } from '@dnd-kit/sortable'
-import { filteredTodosAtom, todosAtom } from './Todo.store'
+import { filteredTodosAtom, todosAtom } from './store'
 import TodoItem from './TodoItem'
 
 const TodoList: React.FC = () => {

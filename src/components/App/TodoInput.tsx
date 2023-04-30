@@ -2,7 +2,7 @@ import { useSetAtom } from 'jotai'
 import type { FormEvent } from 'react'
 import React, { memo, useState } from 'react'
 import { nanoid } from 'nanoid'
-import { todosAtom } from './Todo.store'
+import { todosAtom } from './store'
 
 const TodoInput: React.FC = () => {
   const [title, setTitle] = useState('')
