@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <div className='flex items-start justify-center p-20'>
       <div className="flex w-[55ch] flex-col gap-6 font-['LXGW_WenKai_Screen']">
-        <h1 className='mb-3 text-6xl font-bold'>Todo MVC</h1>
+        <h1 className='mb-3 text-6xl font-bold'>TodoMVC</h1>
         <TodoFilter />
         <TodoInput />
         <TodoList />
