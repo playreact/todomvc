@@ -15,7 +15,7 @@
     "@dnd-kit/sortable": "^7.0.2",
     "@dnd-kit/utilities": "^3.2.1",
     "@formkit/auto-animate": "1.0.0-beta.6",
-    "daisyui": "^2.51.6",
+    "daisyui": "^3.0.0",
     "jotai": "^2.1.0",
     "lucide-react": "^0.224.0",
     "lxgw-wenkai-screen-webfont": "^1.7.0",
