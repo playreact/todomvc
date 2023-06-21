@@ -14,7 +14,7 @@
     "@dnd-kit/core": "^6.0.8",
     "@dnd-kit/sortable": "^7.0.2",
     "@dnd-kit/utilities": "^3.2.1",
-    "@formkit/auto-animate": "1.0.0-beta.6",
+    "@formkit/auto-animate": "1.0.0-pre-alpha.3",
     "daisyui": "^2.51.6",
     "jotai": "^2.1.0",
     "lucide-react": "^0.248.0",
