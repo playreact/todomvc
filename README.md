@@ -13,6 +13,5 @@
 - Tailwind CSS
 - Daisy UI
 - theme-change
-- auto-animate
 - lucide-react
 - ESLint

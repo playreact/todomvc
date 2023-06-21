@@ -1,4 +1,3 @@
-import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { useAtomValue, useSetAtom } from 'jotai'
 import type { DragEndEvent } from '@dnd-kit/core'
 import { DndContext, KeyboardSensor, MouseSensor, TouchSensor, closestCenter, useSensor, useSensors } from '@dnd-kit/core'
@@ -9,7 +8,6 @@ import TodoItem from './TodoItem'
 const TodoList: React.FC = () => {
   const todos = useAtomValue(filteredTodosAtom)
   const setTodos = useSetAtom(todosAtom)
-  const [parent] = useAutoAnimate()
 
   const sensors = useSensors(
     useSensor(MouseSensor, { activationConstraint: { delay: 120, tolerance: 5 } }),
@@ -31,7 +29,7 @@ const TodoList: React.FC = () => {
   }
 
   return (
-    <ul ref={parent} className='flex w-full select-none flex-col gap-3'>
+    <ul className='flex w-full select-none flex-col gap-3'>
       <DndContext onDragEnd={handleDragEnd} sensors={sensors} collisionDetection={closestCenter} >
         <SortableContext items={todos} strategy={verticalListSortingStrategy} >
           {
